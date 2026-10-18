@@ -83,8 +83,13 @@ main .information #guide{
     color: white;
 }
 .searchbar #btn:active{
+    filter : brightness(0.9);
     transform: translateY(-1px)
     scale(1.01);
+}
+#showCity{
+    height: 1.5rem;
+    color: rgb(0, 100, 251);
 }
 .more-details{
     height: auto;
@@ -103,7 +108,7 @@ main .information #guide{
    align-items: center;
    gap: 1rem;
    padding: 1rem;
-    box-shadow: 0px 0px 10px black;
+    box-shadow: 0px 0px 10px rgba(12, 129, 246, 0.834);
     border-radius: 10px;
     color: rgb(0, 151, 251);
 }
