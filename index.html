@@ -12,8 +12,14 @@
    <section class="information">
     <h3 id="guide">Enter Your Location</h3>
     <div class="searchbar">
-    <input type="search" name="searchInfo" id="search-info" placeholder="e.g Kathmandu">
-    <button type="submit" id="btn">Enter</button>
+    <select name="location" id="search-info">
+
+      <option value="" disabled selected >Select a location</option>
+      <option value="Kathmandu" class="drop">Kathmandu</option>
+      <option value="London" class="drop">London</option>
+      <option value="New delhi" class="drop">New Delhi</option>
+      <option value="Dhaka" class="drop">Dhaka</option>
+    </select>
 </div>
    </section>
    <h2 id="showCity">Search a city</h2>
@@ -23,12 +29,12 @@
       <span id="wind">--</span>
     </h3>
     <h3 class="depth"> 
-      Rain perception
-      <span id="Rain">--</span>
+      Condition
+      <span id="condition">--</span>
     </h3>
     <h3 class="depth">
-      Humidity
-      <span id="humidity">--</span>
+      Rain Chance
+      <span id="rainChance">--</span>
     </h3>
    </section>
   </main>
